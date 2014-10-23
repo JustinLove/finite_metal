@@ -1,0 +1,13 @@
+{
+  "author": "wondible",
+  "build": "73939",
+  "context": "server",
+  "date": "2014/10/23",
+  "description": "Metal spots are reclaimable, extractors exist only to help route fabbers to spots.",
+  "display_name": "Finite Metal",
+  "forum": null,
+  "identifier": "com.wondible.pa.finite_metal",
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
