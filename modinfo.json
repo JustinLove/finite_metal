@@ -5,9 +5,9 @@
   "date": "2014/10/23",
   "description": "Metal spots are reclaimable, extractors exist only to help route fabbers to spots.",
   "display_name": "Finite Metal",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-server-finite-metal.65484/",
   "identifier": "com.wondible.pa.finite_metal",
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 
