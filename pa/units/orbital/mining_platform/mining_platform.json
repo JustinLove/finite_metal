@@ -18,7 +18,10 @@
   "unit_types": [
     "UNITTYPE_Orbital",
     "UNITTYPE_FabOrbBuild",
-    "UNITTYPE_Structure"
+    "UNITTYPE_EnergyProduction",
+    "UNITTYPE_MetalProduction",
+    "UNITTYPE_Structure",
+    "UNITTYPE_Economy"
   ],
   "physics": {
     "radius": 20,
@@ -56,6 +59,9 @@
         "should_stop_func": "is_disabled"
       }
     }
+  },
+  "death_weapon": {
+    "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_orbitalpbaoe.json"
   },
   "fx_offsets": [
     {
@@ -187,7 +193,8 @@
     },
     "died": {
       "audio_cue": "/SE/Death/orbital",
-      "effect_scale": 2.5
+      "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
+      "effect_scale": 1
     }
   },
   "mesh_bounds": [
