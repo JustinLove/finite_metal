@@ -18,6 +18,7 @@ module.exports = function(grunt) {
               'LICENSE.txt',
               'README.md',
               'CHANGELOG.md',
+              'com.wondible.pa.finite_metal/**',
               'ui/**',
               'pa/**'],
             dest: modPath,
