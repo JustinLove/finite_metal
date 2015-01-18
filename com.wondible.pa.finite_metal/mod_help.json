@@ -1,4 +1,7 @@
 {
+  "articles": {
+    "Finite Metal": "coui://com.wondible.pa.finite_metal/finite_metal.html"
+  },
   "topics": {
     "finite metal": "Metal spots are reclaimable instead of infinite (use area commands or mex).",
     "mex": "Metal extractors exist only to help route fabbers to spots."
