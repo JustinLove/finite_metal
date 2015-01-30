@@ -1,3 +1,7 @@
+## 1.1.1
+
+- Update for underwater vision
+
 ## 1.1.0
 
 - Support Server Mod Help Chat
