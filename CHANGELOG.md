@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Update for jig build separation
+
 ## 1.1.1
 
 - Update for underwater vision
