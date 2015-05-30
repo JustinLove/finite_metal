@@ -1,3 +1,7 @@
+## 1.1.3
+
+- Update player guide article for 82293
+
 ## 1.1.2
 
 - Update for jig build separation
