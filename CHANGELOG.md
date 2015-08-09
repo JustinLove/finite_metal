@@ -1,3 +1,7 @@
+## 1.1.4
+
+- Update Jig athrophy from some time ago
+
 ## 1.1.3
 
 - Update player guide article for 82293

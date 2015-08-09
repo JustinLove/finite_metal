@@ -4,6 +4,8 @@
   "description": "Gas mining satellite produces energy while providing orbital energy and metal storage.",
   "max_health": 3000,
   "build_metal_cost": 3000,
+  "atrophy_rate": 50,
+  "atrophy_cool_down": 15,
   "spawn_layers": "WL_Orbital",
   "area_build_type": "Sphere",
   "area_build_separation": 100,

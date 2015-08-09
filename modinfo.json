@@ -1,14 +1,14 @@
 {
   "author": "wondible",
-  "build": "82293",
+  "build": "85423",
   "category": ["metal", "mex", "reclaim"],
   "context": "server",
-  "date": "2015/05/30",
+  "date": "2015/08/08",
   "description": "Metal spots are reclaimable, extractors exist only to help route fabbers to spots.",
   "display_name": "Finite Metal",
   "forum": "https://forums.uberent.com/threads/rel-server-finite-metal.65484/",
   "identifier": "com.wondible.pa.finite_metal",
   "signature": "not yet implemented",
-  "version": "1.1.3"
+  "version": "1.1.4"
 }
 
