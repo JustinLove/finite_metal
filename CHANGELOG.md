@@ -1,6 +1,6 @@
 ## 1.1.4
 
-- Update Jig athrophy from some time ago
+- Update Jig atrophy from some time ago
 
 ## 1.1.3
 
