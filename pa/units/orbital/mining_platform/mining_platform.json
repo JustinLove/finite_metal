@@ -1,9 +1,9 @@
 {
   "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
-  "display_name": "!LOC(units:jig.message):Jig",
+  "display_name": "Jig",
   "description": "Gas mining satellite produces energy while providing orbital energy and metal storage.",
   "max_health": 3000,
-  "build_metal_cost": 3000,
+  "build_metal_cost": 1500,
   "atrophy_rate": 50,
   "atrophy_cool_down": 15,
   "spawn_layers": "WL_Orbital",
@@ -27,7 +27,6 @@
   ],
   "physics": {
     "radius": 20,
-    "push_class": 15,
     "collision_layers": "WL_Orbital",
     "ignore_gravity": true
   },
@@ -63,7 +62,7 @@
     }
   },
   "death_weapon": {
-    "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_orbitalpbaoe.json"
+    "ground_ammo_spec": "/pa/units/orbital/mining_platform/mining_platform_nuke.json"
   },
   "fx_offsets": [
     {
@@ -198,6 +197,9 @@
       "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
       "effect_scale": 1
     }
+  },
+  "selection_icon": {
+    "diameter": 105
   },
   "mesh_bounds": [
     50,

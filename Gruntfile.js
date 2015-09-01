@@ -74,11 +74,12 @@ module.exports = function(grunt) {
           // sometimes a fabber gets lucky and builds one
           spec.build_metal_cost = 1
           spec.max_health = 1
+          spec.passive_health_regen = -1
         }
       },
       advmex: {
         targets: [
-          'pa/units/land/metal_extractor_adv/metal_extractor_adv.json'
+          'pa_ex1/units/land/metal_extractor_adv/metal_extractor_adv.json'
         ],
         process: function(spec) {
           delete spec.unit_types
@@ -86,11 +87,11 @@ module.exports = function(grunt) {
       },
       jig: {
         targets: [
-          'pa/units/orbital/mining_platform/mining_platform.json'
+          'pa_ex1/units/orbital/mining_platform/mining_platform.json'
         ],
         process: function(spec) {
           delete spec.production.metal
-          spec.max_health = 3000
+          spec.build_metal_cost = 1500
           spec.description = "Gas mining satellite produces energy while providing orbital energy and metal storage."
         }
       }

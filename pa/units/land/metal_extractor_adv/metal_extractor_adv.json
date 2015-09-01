@@ -1,19 +1,20 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "!LOC(units:advanced_metal_extractor.message):Advanced Metal Extractor",
-  "description": "!LOC(units:advanced_manufacturing_produces_metal_can_only_be_placed_on_metal_deposits.message):Advanced manufacturing- Produces metal, can only be placed on metal deposits.",
+  "display_name": "!LOC:Advanced Metal Extractor",
+  "description": "!LOC:Advanced manufacturing- Produces metal, can only be placed on metal deposits.",
   "strategic_icon_priority": 5,
   "max_health": 5000,
-  "build_metal_cost": 2000,
+  "build_metal_cost": 1500,
   "atrophy_rate": 33.3333,
   "atrophy_cool_down": 15,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "feature_requirements": [
     "metal_spot"
   ],
+  "force_snap_to_feature_orientation": true,
   "area_build_type": "Sphere",
   "production": {
-    "metal": 24
+    "metal": 20
   },
   "consumption": {
     "energy": 0
@@ -89,13 +90,16 @@
       "intensity": 1
     }
   ],
+  "selection_icon": {
+    "diameter": 28
+  },
   "mesh_bounds": [
     15.5,
     13.3685,
     23.2
   ],
   "placement_size": [
-    20,
+    16,
     16
   ],
   "TEMP_texelinfo": 24.4307

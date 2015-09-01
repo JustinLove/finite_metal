@@ -10,6 +10,7 @@
   "feature_requirements": [
     "metal_spot"
   ],
+  "force_snap_to_feature_orientation": true,
   "area_build_type": "Sphere",
   "consumption": {
     "energy": 0
@@ -91,14 +92,18 @@
       "intensity": 1
     }
   ],
+  "selection_icon": {
+    "diameter": 24
+  },
   "mesh_bounds": [
     9.2,
     10.0407,
     23.5
   ],
   "placement_size": [
-    20,
+    16,
     16
   ],
-  "TEMP_texelinfo": 15.0973
+  "TEMP_texelinfo": 15.0973,
+  "passive_health_regen": -1
 }
