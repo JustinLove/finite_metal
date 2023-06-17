@@ -65,7 +65,7 @@ module.exports = function(grunt) {
       },
       mex: {
         targets: [
-          'pa/units/land/metal_extractor/metal_extractor.json'
+          'pa_ex1/units/land/metal_extractor/metal_extractor.json'
         ],
         process: function(spec) {
           delete spec.production
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
         process: function(spec) {
           delete spec.production.metal
           spec.build_metal_cost = 1500
-          spec.description = "Gas mining satellite produces energy while providing orbital energy and metal storage."
+          spec.description = "Gas Mining - Advanced energy creation satellite. Only works above gas giant planets."
         }
       }
     }
@@ -113,8 +113,12 @@ module.exports = function(grunt) {
     }
   })
 
+  grunt.registerTask('printPath', function() {
+    console.log(media)
+  });
+
   // Default task(s).
-  grunt.registerTask('default', ['proc', 'json_schema', 'jsonlint', 'copy:mod']);
+  grunt.registerTask('default', ['proc', 'json_schema', 'jsonlint', 'copy:mod', 'printPath']);
 
 };
 

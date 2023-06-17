@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json",
   "display_name": "Jig",
-  "description": "Gas mining satellite produces energy while providing orbital energy and metal storage.",
+  "description": "Gas Mining - Advanced energy creation satellite. Only works above gas giant planets.",
   "max_health": 3000,
   "build_metal_cost": 1500,
   "atrophy_rate": 50,
@@ -11,13 +11,10 @@
   "area_build_separation": 100,
   "build_restrictions": "Terrainless",
   "production": {
-    "energy": 9000
-  },
-  "storage": {
-    "energy": 50000,
-    "metal": 10000
+    "energy": 3750
   },
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Orbital",
     "UNITTYPE_FabOrbBuild",
     "UNITTYPE_EnergyProduction",

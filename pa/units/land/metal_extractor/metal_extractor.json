@@ -1,5 +1,6 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "unit_name": "!Metal Extractor",
   "display_name": "Metal Marker",
   "description": "Useful to make a fabber visit and reclaim metal spots",
   "max_health": 1,
@@ -16,12 +17,14 @@
     "energy": 0
   },
   "unit_types": [
+    "UNITTYPE_Custom58",
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
     "UNITTYPE_MetalProduction",
     "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_Economy"
+    "UNITTYPE_Economy",
+    "UNITTYPE_FabOrbBuild"
   ],
   "recon": {
     "observer": {
@@ -30,13 +33,13 @@
           "layer": "surface_and_air",
           "channel": "sight",
           "shape": "capsule",
-          "radius": 100
+          "radius": 75
         },
         {
           "layer": "underwater",
           "channel": "sight",
           "shape": "capsule",
-          "radius": 100
+          "radius": 75
         }
       ]
     }
